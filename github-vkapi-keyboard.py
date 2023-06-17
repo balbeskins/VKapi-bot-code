@@ -24,6 +24,6 @@ for event in longpool.listen():
         reseived = event.text
         id = event.user_id
         if reseived == "Your text 1:": # any text you want
-            sender(id, listm) # listm - your previous list in def listmessage
+            sender(id, printlist) # printlist - your previous listm in def listmessage
         if reseived == "Your text 2:": # any text you want
             sender(id, "Your text 3") # any text you want
